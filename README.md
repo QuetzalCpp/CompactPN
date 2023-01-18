@@ -1,15 +1,9 @@
-# CompactPN
+# CompactPN: Convolutional Neural Networks for Geo-Localisation with a Single Aerial Image
 
-## Available for the following versions
-- [Ubuntu 16.04 ](https://github.com/QuetzalCpp/DeepPilot)
-- [Ubuntu 20.04](https://github.com/QuetzalCpp/DeepPilot/tree/Noetic)
-
-# DeepPilot: A CNN for Autonomous Drone Racing
-
-Autonomous Drone Racing (ADR) was first proposed in IROS 2016. It called for the development of an autonomous drone capable of beating a human in a drone race. After almost five years, several teams have proposed different solutions with a common pipeline: gate detection; drone localization; and stable flight control. Recently, Deep Learning (DL) has been used for gate detection and localization of the drone regarding the gate. However, recent competitions such as the Game of Drones, held at NeurIPS 2019, called for solutions where DL played a more significant role. Motivated by the latter, in this work, we propose a CNN approach called DeepPilot that takes camera images as input and predicts flight commands as output. These flight commands represent: the angular position of the drone’s body frame in the roll and pitch angles, thus producing translation motion in those angles; rotational speed in the yaw angle; and vertical speed referred as altitude h. Values for these 4 flight commands, predicted by DeepPilot, are passed to the drone’s inner controller, thus enabling the drone to navigate autonomously through the gates in the racetrack. For this, we assume that the next gate becomes visible immediately after the current gate has been crossed. We present evaluations in simulated racetrack environments where DeepPilot is run several times successfully to prove repeatability. In average, DeepPilot runs at 25 frames per second (fps). We also present a thorough evaluation of what we called a temporal approach, which consists of creating a mosaic image, with consecutive camera frames, that is passed as input to the DeepPilot. We argue that this helps to learn the drone’s motion trend regarding the gate, thus acting as a local memory that leverages the prediction of the flight commands. Our results indicate that this purely DL-based artificial pilot is feasible to be used for the ADR challenge.
+Nowadays, Unmanned Aerial Vehicles (UAVs) navigating outdoors rely heavily on GPS for localisation and autonomous flight or  applications for aerial photography recording with a GPS coordinate. However, GPS may fail or become unreliable, thus compromising the flight mission. Motivated by this scenario, in this work, we present a study on the use of popular Convolutional Neural Networks (CNN) to address the problem of geo-localisation from a single aerial image. We compare CNN-based architectures from the state of the art, and introduce a compact architecture to speed up the inference process without affecting the estimation error. For our experiments, aerial images were recorded with a monocular camera on board a UAV, flying outdoors with a height between 20 to 25 metres. On average, our compact network achieves a minimum estimation error of 2.8 metres and a maximum of 6.1 metres, which is comparable to the performance of other networks in the state of the art. However, our network achieves on average an operation frequency of 103 fps versus 69 fps achieved by the fastest network in the comparison analysis. These results are promising since such speed would enable fast geo-localisation with cameras capturing images at those frame rates, which are useful for obtaining neater images than with conventional cameras working at 30 fps.
 
 <p align="center">
-  <img src="images/gate5.gif">
+  <img src="images/figure1.png">
 </p>
 
 ## Overview of our approach
