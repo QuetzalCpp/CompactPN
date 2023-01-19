@@ -15,7 +15,7 @@ into three neurons, one for each coordinate after the pooling layer.
 ![alt text](images/figure18.png)
 
 ## Video
-A video of this approach can be watched at: https://drive.google.com/file/d/1_gB7JFDkNk2a3J_vRzhDkLbifV0fWV37/view?usp=sharing
+A video of this approach can be watched at: https://drive.google.com/file/d/1oTHE_U5zKl9BpBaHX3HHOmCUZPPFXUoy/view?usp=sharing
 
 ## Recommended system
 - Ubuntu 16.04
