@@ -26,7 +26,7 @@ A video of this approach can be watched at: https://drive.google.com/file/d/1oTH
 - Cudnn 7.3.0
 
 ### Additional Resources
-- [Datasets to train CompactPN]([https://inaoepedu-my.sharepoint.com/:f:/g/personal/carranza_inaoe_edu_mx/EslxVDqc9zBMmiV4mDH48KUBAcAHu0Ypt1rZLL6ifOjyoA?e=VYtMyT](https://mnemosyne.inaoep.mx/index.php/s/Km4QGSR0hu7XiID))
+- [Pretrained Model and Dataset](https://mnemosyne.inaoep.mx/index.php/s/Km4QGSR0hu7XiID)
 
 ## Reference
 If you use any of data or code, please cite the following reference:
