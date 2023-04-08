@@ -47,7 +47,7 @@ Cabrera-Ponce, A. A., & Martinez-Carranza, J. (2022). Convolutional neural netwo
 ```
 ## Related References
 
-- A. A. Cabrera-Ponce and J. Martinez-Carranza, "erial geo-localisation for MAVs using PoseNet," 2019 Workshop on Research, Education and Development of Unmanned Aerial Systems (RED UAS), Cranfield, United Kingdom, 2019, pp. 192-198, doi: 10.1109/REDUAS47371.2019.8999713
+- A. A. Cabrera-Ponce and J. Martinez-Carranza, "Aerial geo-localisation for MAVs using PoseNet," 2019 Workshop on Research, Education and Development of Unmanned Aerial Systems (RED UAS), Cranfield, United Kingdom, 2019, pp. 192-198, doi: 10.1109/REDUAS47371.2019.8999713
 
 ```
 @inproceedings{cabrera2019aerial,
