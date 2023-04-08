@@ -31,7 +31,7 @@ A video of this approach can be watched at [Youtube](https://youtu.be/xfsU_cCLpF
 ## Reference
 If you use any of data or code, please cite the following reference:
 
-Cabrera-Ponce, A. A., & Martinez-Carranza, J. (2022). Convolutional neural networks for geo-localisation with a single aerial image. Journal of Real-Time Image Processing, 19(3), 565-575. https://doi.org/10.1007/s11554-022-01207-1
+Cabrera-Ponce, A. A., & Martinez-Carranza, J. "Convolutional neural networks for geo-localisation with a single aerial image", Journal of Real-Time Image Processing, 2022, 19(3), 565-575. https://doi.org/10.1007/s11554-022-01207-1
 
 ```
 @article{cabrera2022convolutional,
