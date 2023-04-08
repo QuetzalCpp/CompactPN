@@ -6,7 +6,7 @@ Nowadays, Unmanned Aerial Vehicles (UAVs) navigating outdoors rely heavily on GP
 
 ![alt text](images/figure1.png)
 
-It consists of 2 steps: 1) Real-time image acquisition using the drone’s onboard camera. 2) GPS coordinates estimation using a compact convolutional neural network (CNN) based on PoseNet called \textbf{CompactPN} (Compact PoseNet).
+It consists of 2 steps: 1) Real-time image acquisition using the drone’s onboard camera. 2) GPS coordinates estimation using a compact convolutional neural network (CNN) based on PoseNet called CompactPN (Compact PoseNet).
 
 ## CompactPN Architecture
 The architecture consists of 4 convolutional layers, 3 Inception modules, 1 fully-connected layers with the output layer separated
@@ -47,7 +47,7 @@ Cabrera-Ponce, A. A., & Martinez-Carranza, J. "Convolutional neural networks for
 ```
 ## Related References
 
-- A. A. Cabrera-Ponce and J. Martinez-Carranza, "Aerial geo-localisation for MAVs using PoseNet," 2019 Workshop on Research, Education and Development of Unmanned Aerial Systems (RED UAS), Cranfield, United Kingdom, 2019, pp. 192-198, doi: 10.1109/REDUAS47371.2019.8999713
+- Cabrera-Ponce, A. A., & Martinez-Carranza, J. "Aerial geo-localisation for MAVs using PoseNet," 2019 Workshop on Research, Education and Development of Unmanned Aerial Systems (RED UAS), Cranfield, United Kingdom, 2019, pp. 192-198, doi: 10.1109/REDUAS47371.2019.8999713
 
 ```
 @inproceedings{cabrera2019aerial,
